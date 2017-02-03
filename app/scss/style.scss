@@ -1,0 +1,207 @@
+$pacifico: Pacifico, cursive;
+$raleway: Raleway, sans-serif;
+
+@mixin button($width, $color) {
+    width: $width;
+    height: 55px;
+    border: none;
+    background: $color;
+    font-family: $raleway;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    box-shadow: 3px 3px 8px #9a9a9c;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+header {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../imgs/headerbg.png");
+    background-position: 150px 80px;
+    background-repeat: no-repeat;
+    background-color: #f9f8fb;
+}
+
+nav {
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0px;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 165px;
+    font-size: 1.75em;
+    font-family: $pacifico;
+    float: left;
+    a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 300;
+        &:focus,
+        &:hover {
+            color: #ff6033;
+        }
+    }
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    display: none;
+    position: relative;
+    right: 165px;
+    top: 50px;
+    &:focus,
+    &:hover {
+        color: #ff6033;
+    }
+}
+
+.navbar {
+    margin: 0;
+    height: 100%;
+    margin-right: 165px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    float: right;
+    li {
+        margin-left: 38px;
+    }
+    a {
+        color: #262626;
+        text-decoration: none;
+        font-size: 1.50em;
+        font-family: $raleway;
+        font-weight: 600;
+        &:focus,
+        &:hover {
+            border-top: 4px solid #ff6033;
+        }
+    }
+}
+
+@media only screen and (max-width: 1217px) {
+    .navbar {
+        display: none;
+    }
+    
+    .responsive {
+        background-color: rgba(255,255,255,0.9);
+        flex-direction: column;
+        line-height: 50px;
+        position: relative;
+        top: 120px;
+        left: 85px;
+        height: 330px;
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        li {
+            margin: 0;
+        }
+    }
+    
+    .hamburger {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 661px) {
+    header {
+        background-position: center;
+    }
+    
+    .hamburger {
+        right: 40px;
+    }
+    .logo {
+        margin-left: 30px;
+        position: absolute;
+    }
+    
+    .responsive {
+        left: 210px;
+    }
+}
+
+.header_content {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    h2 {
+        font-size: 4em;
+        font-family: $raleway;
+        font-weight: bolder;
+        color: #262626;
+        margin: 0;
+    }
+    p {
+        width: 370px;
+        color: #343434;
+        font-size: 1.05em;
+        font-family: $raleway;
+    }
+    button {
+        @include button(200px, #ff6033);
+        &:focus,
+        &:hover {
+            background-color: #ee5022;
+        }
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    .header_content p {
+        width: 100%;
+    }
+}
+
+.scroll {
+    box-sizing: border-box;
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+        transition: all 0.1s ease;
+    }
+    img:hover {
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+}
+
+section {
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+}

@@ -1,0 +1,192 @@
+/* line 18, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  /* 1 */ }
+
+/* line 30, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+header {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../imgs/headerbg.png");
+  background-position: 150px 80px;
+  background-repeat: no-repeat;
+  background-color: #f9f8fb; }
+
+/* line 39, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+nav {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  top: 0px; }
+
+/* line 47, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 165px;
+  font-size: 1.75em;
+  font-family: Pacifico, cursive;
+  float: left; }
+  /* line 55, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .logo a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 300; }
+    /* line 59, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .logo a:focus, .logo a:hover {
+      color: #ff6033; }
+
+/* line 66, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.hamburger {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  float: right;
+  display: none;
+  position: relative;
+  right: 165px;
+  top: 50px; }
+  /* line 75, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .hamburger:focus, .hamburger:hover {
+    color: #ff6033; }
+
+/* line 81, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.navbar {
+  margin: 0;
+  height: 100%;
+  margin-right: 165px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  float: right; }
+  /* line 89, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .navbar li {
+    margin-left: 38px; }
+  /* line 92, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .navbar a {
+    color: #262626;
+    text-decoration: none;
+    font-size: 1.50em;
+    font-family: Raleway, sans-serif;
+    font-weight: 600; }
+    /* line 98, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .navbar a:focus, .navbar a:hover {
+      border-top: 4px solid #ff6033; }
+
+@media only screen and (max-width: 1217px) {
+  /* line 106, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .navbar {
+    display: none; }
+  /* line 110, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .responsive {
+    background-color: rgba(255, 255, 255, 0.9);
+    flex-direction: column;
+    line-height: 50px;
+    position: relative;
+    top: 120px;
+    left: 85px;
+    height: 330px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px; }
+    /* line 121, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .responsive li {
+      margin: 0; }
+  /* line 126, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .hamburger {
+    display: block; } }
+
+@media only screen and (max-width: 661px) {
+  /* line 132, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  header {
+    background-position: center; }
+  /* line 136, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .hamburger {
+    right: 40px; }
+  /* line 139, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .logo {
+    margin-left: 30px;
+    position: absolute; }
+  /* line 144, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .responsive {
+    left: 210px; } }
+
+/* line 149, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.header_content {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; }
+  /* line 157, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .header_content h2 {
+    font-size: 4em;
+    font-family: Raleway, sans-serif;
+    font-weight: bolder;
+    color: #262626;
+    margin: 0; }
+  /* line 164, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .header_content p {
+    width: 370px;
+    color: #343434;
+    font-size: 1.05em;
+    font-family: Raleway, sans-serif; }
+  /* line 170, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .header_content button {
+    width: 200px;
+    height: 55px;
+    border: none;
+    background: #ff6033;
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    box-shadow: 3px 3px 8px #9a9a9c;
+    cursor: pointer;
+    text-transform: uppercase; }
+    /* line 172, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .header_content button:focus, .header_content button:hover {
+      background-color: #ee5022; }
+
+@media only screen and (max-width: 449px) {
+  /* line 180, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .header_content p {
+    width: 100%; } }
+
+/* line 185, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.scroll {
+  box-sizing: border-box;
+  width: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 194, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .scroll img {
+    transition: all 0.1s ease; }
+  /* line 197, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .scroll img:hover {
+    margin-bottom: 10px;
+    cursor: pointer; }
+
+/* line 203, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+section {
+  width: 100%;
+  height: 1000px;
+  background-color: red; }
+
+/*# sourceMappingURL=style.css.map */
