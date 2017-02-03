@@ -8,9 +8,11 @@ gulp.task("reload", function() {
 
 gulp.task("serve", ["sass"], function() {
     browserSync({
-        server: "app"
+        server: {
+            baseDir: "./"
+        }
     });
-    gulp.watch("app/*.html", ["reload"]);
+    gulp.watch("*.html", ["reload"]);
     gulp.watch("app/scss/**/*.scss", ["sass"]);
 });
 
