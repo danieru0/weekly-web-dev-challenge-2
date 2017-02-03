@@ -2,4 +2,4 @@
 
 This is site from polish facebook group named weekly webdev challenge
 
-LIVE: 
+LIVE: https://elosiktv.github.io/weekly-web-dev-challenge-2/
