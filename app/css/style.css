@@ -23,7 +23,8 @@ nav {
   width: 100%;
   height: 120px;
   position: fixed;
-  top: 0px; }
+  top: 0px;
+  z-index: 1; }
 
 .logo {
   height: 100%;
@@ -212,4 +213,93 @@ nav {
 .our-services {
   width: 100%;
   height: 790px;
-  background-color: #70bfff; }
+  background-color: #70bfff;
+  background-image: url("../imgs/our-services.png");
+  background-repeat: no-repeat;
+  background-position: center right 20%; }
+  .our-services .our-services_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .our-services .our-services_container h2 {
+      margin: 0;
+      font-size: 90px;
+      color: #ffffff;
+      font-family: Raleway, sans-serif;
+      font-weight: bold;
+      align-self: flex-end;
+      position: absolute;
+      right: 15%; }
+    .our-services .our-services_container .container_services {
+      align-self: flex-start;
+      width: 400px; }
+      .our-services .our-services_container .container_services .box {
+        margin-bottom: 20px;
+        box-shadow: 0px 23px 10px #44739a;
+        height: 100px; }
+      .our-services .our-services_container .container_services .text-box {
+        margin-top: 20px;
+        width: 75%;
+        height: 100px;
+        background-color: #ffffff;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+        .our-services .our-services_container .container_services .text-box h3 {
+          width: 80%; }
+      .our-services .our-services_container .container_services .img-box {
+        margin-top: 20px;
+        box-sizing: border-box;
+        width: 25%;
+        float: right;
+        height: 100px;
+        background-color: #ffffff;
+        position: relative;
+        border-left: 1px solid #9d9d9d; }
+        .our-services .our-services_container .container_services .img-box img {
+          position: absolute;
+          margin: auto;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0; }
+
+@media only screen and (max-width: 1471px) {
+  .our-services .our-services_container {
+    width: 80%; } }
+
+@media only screen and (max-width: 1284px) {
+  .our-services {
+    background-position: center; }
+    .our-services .our-services_container {
+      width: 100%;
+      position: relative;
+      right: 0;
+      left: 0; }
+      .our-services .our-services_container h2 {
+        position: relative;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; }
+      .our-services .our-services_container .container_services {
+        margin: 0 auto; } }
+
+@media only screen and (max-width: 500px) {
+  .our-services .our-services_container {
+    width: 100%; }
+    .our-services .our-services_container .container_services {
+      width: 100%; } }
+
+.gallery {
+  width: 100%;
+  height: 1536px;
+  background-color: #ffe92f; }
