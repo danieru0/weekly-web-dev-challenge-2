@@ -74,6 +74,8 @@ nav {
 @media only screen and (max-width: 1217px) {
   .navbar {
     display: none; }
+  header {
+    background-position: -250px 80px; }
   .responsive {
     background-color: rgba(255, 255, 255, 0.9);
     flex-direction: column;
@@ -92,7 +94,7 @@ nav {
 
 @media only screen and (max-width: 661px) {
   header {
-    background-position: center; }
+    background-position: -450px 80px; }
   .hamburger {
     right: 40px; }
   .logo {
@@ -100,6 +102,11 @@ nav {
     position: absolute; }
   .responsive {
     left: 210px; } }
+
+@media only screen and (max-width: 320px) {
+  .responsive {
+    left: 170px;
+    top: 86px; } }
 
 .header_content {
   margin: 0 auto;
@@ -110,7 +117,7 @@ nav {
   align-items: flex-start;
   flex-direction: column; }
   .header_content h2 {
-    font-size: 4em;
+    font-size: 60px;
     font-family: Raleway, sans-serif;
     font-weight: bolder;
     color: #262626;
@@ -150,7 +157,59 @@ nav {
     margin-top: -10px;
     cursor: pointer; }
 
-section {
+.about-us {
   width: 100%;
-  height: 1000px;
-  background-color: red; }
+  height: 700px;
+  background-color: #00bbbb;
+  background-image: url("../imgs/about-us.png");
+  background-repeat: no-repeat;
+  background-position: center left 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .about-us .about-us_container {
+    width: 45%;
+    align-self: flex-end; }
+    .about-us .about-us_container h2 {
+      margin: 0;
+      font-size: 90px;
+      color: #ffffff;
+      font-family: Raleway, sans-serif;
+      font-weight: bold; }
+    .about-us .about-us_container p {
+      width: 500px;
+      font-size: 17px;
+      font-family: Raleway, sans-serif;
+      color: #ffffff;
+      line-height: 27px; }
+
+@media only screen and (max-width: 1440px) {
+  .about-us {
+    background-position: center left -15%; }
+    .about-us .about-us_container {
+      width: 650px; } }
+
+@media only screen and (max-width: 1217px) {
+  .about-us {
+    background-position: center 500px; }
+    .about-us .about-us_container {
+      width: auto;
+      margin-left: auto;
+      margin-right: auto; }
+      .about-us .about-us_container h2,
+      .about-us .about-us_container p {
+        text-align: center; } }
+
+@media only screen and (max-width: 661px) {
+  .about-us {
+    height: 800px;
+    background-position: center 600px; }
+    .about-us .about-us_container h2,
+    .about-us .about-us_container p {
+      width: 100%; } }
+
+.our-services {
+  width: 100%;
+  height: 790px;
+  background-color: #70bfff; }
