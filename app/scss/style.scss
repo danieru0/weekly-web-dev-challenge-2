@@ -196,7 +196,7 @@ nav {
         @include button(200px, #ff6033);
         &:focus,
         &:hover {
-            background-color: #ee5022;
+            background-color: darken(#ff6033, 30);
         }
     }
 }
@@ -408,6 +408,14 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    button {
+        margin-top: 50px;
+        @include button(200px, #5585a2);
+        &:focus,
+        &:hover {
+            background-color: saturate(#5585a2, 30);
+        }
+    }
     h2 {
         @include header2(90px, #000000);
         text-align: center;
@@ -491,5 +499,80 @@ nav {
 @media only screen and (max-width: 661px) {
     .gallery h2 {
         font-size: 60px;
+    }
+}
+
+.subscribe {
+    background-image: url("../imgs/subscribe.png");
+    background-position: 70%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .subscribe_container {
+        width: 80%;
+        margin: 0 auto;
+        h2 {
+            @include header2(40px, #000000);
+        }
+        p {
+            width: 545px;
+            font-family: $raleway;
+            padding-bottom: 15px;
+        }
+        form {
+            input {
+                padding-left: 14px;
+                width: 570px - 14px;
+                height: 55px;
+                border: 1px solid #000000;
+                font-size: 15px;
+            }
+            button {
+                margin-left: 23px;
+                @include button(200px, #96b92c);
+                height: 60px;
+                &:focus,
+                &:hover {
+                    background-color: saturate(#96b92c, 30);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1017px) {
+    .subscribe {
+        .subscribe_container {
+            form {
+                button {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    .subscribe {
+        text-align: center;
+        .subscribe_container {
+            p {
+                width: 100%;
+            }
+            width: 100%;
+            form {
+                input {
+                    box-sizing: border-box;
+                    padding-left: 2%;
+                    width: 100% - 2%;
+                }
+                button {
+                    margin-top: 15px;
+                }
+            }
+        }
     }
 }

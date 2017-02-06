@@ -168,7 +168,7 @@ nav {
     text-transform: uppercase; }
     /* line 197, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .header_content button:focus, .header_content button:hover {
-      background-color: #ee5022; }
+      background-color: #992200; }
 
 @media only screen and (max-width: 449px) {
   /* line 205, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
@@ -374,6 +374,23 @@ nav {
   align-items: center;
   flex-direction: column; }
   /* line 411, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .gallery button {
+    margin-top: 50px;
+    width: 200px;
+    height: 55px;
+    border: none;
+    background: #5585a2;
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    box-shadow: 3px 3px 8px #9a9a9c;
+    cursor: pointer;
+    text-transform: uppercase; }
+    /* line 414, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .gallery button:focus, .gallery button:hover {
+      background-color: #308ec7; }
+  /* line 419, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .gallery h2 {
     margin: 0;
     font-size: 90px;
@@ -381,7 +398,7 @@ nav {
     font-family: Raleway, sans-serif;
     font-weight: bold;
     text-align: center; }
-  /* line 415, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 423, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .gallery p {
     width: 582px;
     text-align: center;
@@ -389,7 +406,7 @@ nav {
     font-size: 17px;
     padding-bottom: 30px;
     padding-top: 10px; }
-  /* line 423, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 431, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .gallery .gallery_container {
     width: 1170px;
     height: 982px;
@@ -397,17 +414,17 @@ nav {
     align-items: flex-start;
     flex-direction: column;
     position: relative; }
-    /* line 430, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 438, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .gallery .gallery_container .container1 {
       display: flex;
       flex-direction: column;
       align-self: flex-end;
       position: absolute;
       top: 3px; }
-      /* line 436, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 444, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .gallery .gallery_container .container1 img {
         margin-bottom: 20px; }
-    /* line 440, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 448, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .gallery .gallery_container .container2 {
       display: flex;
       flex-direction: row;
@@ -418,41 +435,117 @@ nav {
       flex-wrap: wrap; }
 
 @media only screen and (max-width: 1192px) {
-  /* line 453, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 461, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .gallery {
     height: 100%; }
-    /* line 455, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 463, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .gallery h2 {
       padding-top: 100px; }
-    /* line 458, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 466, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .gallery .gallery_container {
       height: 100%;
       width: 100%;
       justify-content: center;
       align-items: center; }
-      /* line 463, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 471, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .gallery .gallery_container .container1 {
         align-self: auto;
         position: relative; }
-      /* line 467, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 475, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .gallery .gallery_container .container2 {
         justify-content: center;
         align-items: center; } }
 
 @media only screen and (max-width: 800px) {
-  /* line 477, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 485, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .gallery img {
     width: 100%; }
-  /* line 481, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 489, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .gallery h2 {
     width: 100%; }
-  /* line 485, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 493, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .gallery p {
     width: 100%; } }
 
 @media only screen and (max-width: 661px) {
-  /* line 492, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 500, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .gallery h2 {
     font-size: 60px; } }
+
+/* line 505, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.subscribe {
+  background-image: url("../imgs/subscribe.png");
+  background-position: 70%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 514, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .subscribe .subscribe_container {
+    width: 80%;
+    margin: 0 auto; }
+    /* line 517, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .subscribe .subscribe_container h2 {
+      margin: 0;
+      font-size: 40px;
+      color: #000000;
+      font-family: Raleway, sans-serif;
+      font-weight: bold; }
+    /* line 520, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .subscribe .subscribe_container p {
+      width: 545px;
+      font-family: Raleway, sans-serif;
+      padding-bottom: 15px; }
+    /* line 526, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .subscribe .subscribe_container form input {
+      padding-left: 14px;
+      width: 556px;
+      height: 55px;
+      border: 1px solid #000000;
+      font-size: 15px; }
+    /* line 533, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .subscribe .subscribe_container form button {
+      margin-left: 23px;
+      width: 200px;
+      height: 55px;
+      border: none;
+      background: #96b92c;
+      font-family: Raleway, sans-serif;
+      color: #ffffff;
+      letter-spacing: 2px;
+      text-align: center;
+      box-shadow: 3px 3px 8px #9a9a9c;
+      cursor: pointer;
+      text-transform: uppercase;
+      height: 60px; }
+      /* line 537, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      .subscribe .subscribe_container form button:focus, .subscribe .subscribe_container form button:hover {
+        background-color: #a7db0a; }
+
+@media only screen and (max-width: 1017px) {
+  /* line 550, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .subscribe .subscribe_container form button {
+    margin: 0; } }
+
+@media only screen and (max-width: 655px) {
+  /* line 559, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .subscribe {
+    text-align: center; }
+    /* line 561, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .subscribe .subscribe_container {
+      width: 100%; }
+      /* line 562, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      .subscribe .subscribe_container p {
+        width: 100%; }
+      /* line 567, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      .subscribe .subscribe_container form input {
+        box-sizing: border-box;
+        padding-left: 2%;
+        width: 98%; }
+      /* line 572, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      .subscribe .subscribe_container form button {
+        margin-top: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

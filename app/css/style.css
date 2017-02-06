@@ -141,7 +141,7 @@ nav {
     cursor: pointer;
     text-transform: uppercase; }
     .header_content button:focus, .header_content button:hover {
-      background-color: #ee5022; }
+      background-color: #992200; }
 
 @media only screen and (max-width: 449px) {
   .header_content p {
@@ -312,6 +312,21 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+  .gallery button {
+    margin-top: 50px;
+    width: 200px;
+    height: 55px;
+    border: none;
+    background: #5585a2;
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    box-shadow: 3px 3px 8px #9a9a9c;
+    cursor: pointer;
+    text-transform: uppercase; }
+    .gallery button:focus, .gallery button:hover {
+      background-color: #308ec7; }
   .gallery h2 {
     margin: 0;
     font-size: 90px;
@@ -378,3 +393,66 @@ nav {
 @media only screen and (max-width: 661px) {
   .gallery h2 {
     font-size: 60px; } }
+
+.subscribe {
+  background-image: url("../imgs/subscribe.png");
+  background-position: 70%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .subscribe .subscribe_container {
+    width: 80%;
+    margin: 0 auto; }
+    .subscribe .subscribe_container h2 {
+      margin: 0;
+      font-size: 40px;
+      color: #000000;
+      font-family: Raleway, sans-serif;
+      font-weight: bold; }
+    .subscribe .subscribe_container p {
+      width: 545px;
+      font-family: Raleway, sans-serif;
+      padding-bottom: 15px; }
+    .subscribe .subscribe_container form input {
+      padding-left: 14px;
+      width: 556px;
+      height: 55px;
+      border: 1px solid #000000;
+      font-size: 15px; }
+    .subscribe .subscribe_container form button {
+      margin-left: 23px;
+      width: 200px;
+      height: 55px;
+      border: none;
+      background: #96b92c;
+      font-family: Raleway, sans-serif;
+      color: #ffffff;
+      letter-spacing: 2px;
+      text-align: center;
+      box-shadow: 3px 3px 8px #9a9a9c;
+      cursor: pointer;
+      text-transform: uppercase;
+      height: 60px; }
+      .subscribe .subscribe_container form button:focus, .subscribe .subscribe_container form button:hover {
+        background-color: #a7db0a; }
+
+@media only screen and (max-width: 1017px) {
+  .subscribe .subscribe_container form button {
+    margin: 0; } }
+
+@media only screen and (max-width: 655px) {
+  .subscribe {
+    text-align: center; }
+    .subscribe .subscribe_container {
+      width: 100%; }
+      .subscribe .subscribe_container p {
+        width: 100%; }
+      .subscribe .subscribe_container form input {
+        box-sizing: border-box;
+        padding-left: 2%;
+        width: 98%; }
+      .subscribe .subscribe_container form button {
+        margin-top: 15px; } }
