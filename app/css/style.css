@@ -693,3 +693,38 @@ nav {
     font-size: 60px; }
   .contact .contact-p {
     width: 100%; } }
+
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: #262626; }
+  footer .footer_container {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .footer_container p {
+      margin: 0;
+      color: #b9b9b9;
+      font-family: Raleway, sans-serif;
+      font-size: 16px; }
+    footer .footer_container .red {
+      color: #ff2b58; }
+    footer .footer_container a {
+      text-decoration: none;
+      color: #b9b9b9;
+      font-size: 25px;
+      font-family: Pacifico, cursive; }
+      footer .footer_container a:focus, footer .footer_container a:hover {
+        color: #ff6033; }
+
+@media only screen and (max-width: 690px) {
+  footer .footer_container {
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center; } }
