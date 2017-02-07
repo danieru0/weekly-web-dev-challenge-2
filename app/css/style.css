@@ -614,6 +614,20 @@ nav {
     .contact .contact_container form {
       display: flex;
       flex-direction: column; }
+      .contact .contact_container form ::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        color: #ffffff; }
+      .contact .contact_container form :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #ffffff;
+        opacity: 1; }
+      .contact .contact_container form ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #ffffff;
+        opacity: 1; }
+      .contact .contact_container form :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #ffffff; }
       .contact .contact_container form input {
         width: 480px;
         height: 50px;
@@ -647,24 +661,6 @@ nav {
         .contact .contact_container form textarea:focus {
           font-weight: bold;
           border-left: 5px solid #355b82; }
-
-::-webkit-input-placeholder {
-  /* WebKit, Blink, Edge */
-  color: #ffffff; }
-
-:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: #ffffff;
-  opacity: 1; }
-
-::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: #ffffff;
-  opacity: 1; }
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #ffffff; }
 
 @media only screen and (max-width: 1167px) {
   .contact .contact_container {
