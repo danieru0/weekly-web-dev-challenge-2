@@ -548,4 +548,140 @@ nav {
       .subscribe .subscribe_container form button {
         margin-top: 15px; } }
 
+/* line 580, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.blog {
+  width: 100%;
+  min-height: 864px;
+  background-color: #b07cf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  /* line 588, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .blog button {
+    width: 200px;
+    height: 55px;
+    border: none;
+    background: #f72b3b;
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    box-shadow: 3px 3px 8px #9a9a9c;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 50px; }
+    /* line 591, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .blog button:focus, .blog button:hover {
+      background-color: #84050f; }
+  /* line 596, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .blog h2 {
+    margin: 0;
+    font-size: 90px;
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-weight: bold; }
+  /* line 599, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .blog .blog-p {
+    width: 566px;
+    text-align: center;
+    color: #ffffff;
+    font-size: Raleway, sans-serif;
+    font-size: 17px; }
+  /* line 606, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .blog .blog_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    /* line 611, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    .blog .blog_container .blog-block {
+      margin-top: 30px;
+      position: relative;
+      margin-left: 30px; }
+      /* line 615, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      .blog .blog_container .blog-block img {
+        margin: 0;
+        padding: 0; }
+      /* line 619, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      .blog .blog_container .blog-block .overlay {
+        position: absolute;
+        display: block;
+        background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.9));
+        background: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.9));
+        background: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.9));
+        background: linear-gradient(top, transparent, rgba(0, 0, 0, 0.9));
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0px; }
+        /* line 630, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        .blog .blog_container .blog-block .overlay .date {
+          width: 60px;
+          height: 60px;
+          background-color: rgba(0, 0, 0, 0.5);
+          position: relative;
+          top: 32px;
+          left: 32px;
+          border-radius: 8px;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          font-family: Raleway, sans-serif;
+          font-weight: bolder;
+          color: white;
+          line-height: 29px; }
+          /* line 645, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+          .blog .blog_container .blog-block .overlay .date .number {
+            margin: 0;
+            font-size: 32px; }
+          /* line 649, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+          .blog .blog_container .blog-block .overlay .date .month {
+            color: white;
+            font-size: 21px; }
+        /* line 654, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        .blog .blog_container .blog-block .overlay h3 {
+          margin-top: 35%;
+          font-size: 20px;
+          font-family: Raleway, sans-serif;
+          padding-left: 20px; }
+          /* line 659, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+          .blog .blog_container .blog-block .overlay h3 a {
+            color: #ffffff;
+            text-decoration: none; }
+            /* line 662, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+            .blog .blog_container .blog-block .overlay h3 a:focus, .blog .blog_container .blog-block .overlay h3 a:hover {
+              text-decoration: underline; }
+        /* line 668, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        .blog .blog_container .blog-block .overlay p {
+          color: #ffffff;
+          font-weight: lighter;
+          font-family: Raleway, sans-serif;
+          padding-left: 20px;
+          padding-top: 10px; }
+
+@media only screen and (max-width: 1216px) {
+  /* line 683, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .blog .blog_container .blog-block {
+    margin-left: 0; } }
+
+@media only screen and (max-width: 582px) {
+  /* line 692, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .blog .blog-p {
+    width: 100%; } }
+
+@media only screen and (max-width: 375px) {
+  /* line 702, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  .blog .blog_container .blog-block img {
+    width: 100%; } }
+
+/* line 710, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+.contact {
+  width: 100%;
+  height: 866px;
+  background-image: url("../imgs/contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
 /*# sourceMappingURL=style.css.map */
