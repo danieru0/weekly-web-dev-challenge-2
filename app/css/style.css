@@ -571,7 +571,7 @@ nav {
 
 .contact {
   width: 100%;
-  height: 866px;
+  min-height: 866px;
   background-image: url("../imgs/contact.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -630,6 +630,22 @@ nav {
       .contact .contact_container form :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
         color: #ffffff; }
+      .contact .contact_container form button {
+        margin-top: 20px;
+        width: 200px;
+        height: 55px;
+        border: none;
+        background: rgba(122, 220, 218, 0.7);
+        font-family: Raleway, sans-serif;
+        color: #ffffff;
+        letter-spacing: 2px;
+        text-align: center;
+        box-shadow: 3px 3px 8px #9a9a9c;
+        cursor: pointer;
+        text-transform: uppercase;
+        box-shadow: none; }
+        .contact .contact_container form button:focus, .contact .contact_container form button:hover {
+          background-color: rgba(97, 245, 242, 0.7); }
       .contact .contact_container form input {
         width: 480px;
         height: 50px;
@@ -673,6 +689,8 @@ nav {
       margin-left: 0; } }
 
 @media only screen and (max-width: 769px) {
+  .contact .contact_container form button {
+    align-self: center; }
   .contact .contact_container address {
     text-align: center; } }
 
