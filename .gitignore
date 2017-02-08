@@ -85,6 +85,5 @@ $RECYCLE.BIN/
 *.lnk
 *.css
 *.map
-*.map
 app/scss/style.css.map
 app/scss/style.css
