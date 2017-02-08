@@ -13,7 +13,7 @@
 	<body>
         <h1 class="visuallyhidden">cahee</h1>
         <header id="home">
-            <nav>
+            <nav data-gumshoe-header>
                 <div class="logo">
                     <a href="#">Cahee</a>
                 </div>
@@ -21,8 +21,8 @@
                     <span class="fa fa-bars fa-2x" aria-hidden="true"></span>
                     <span class="visuallyhidden">Open/hide menu</span>
                 </button>
-                <ul class="navbar">
-                    <li><a href="#home">Home</a></li>
+                <ul class="navbar" data-gumshoe>
+                    <li><a class="active" href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#gallery">Gallery</a></li>
@@ -186,7 +186,17 @@
                 <p>Made with <span class="red">love</span> by Auskteez</p>
             </div>
         </footer>
-    <script src="app/js/main.js"></script>
-    <script src="app/js/zenscroll-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gumshoe/3.3.2/js/gumshoe.min.js"></script>
+        <script>
+            gumshoe.init({
+                selector: '[data-gumshoe] a',
+                selectorHeader: '[data-gumshoe-header]',
+                container: window,
+                offset: 0,
+                activeClass: 'active',
+            });
+        </script>
+        <script src="app/js/main.js"></script>
+        <script src="app/js/zenscroll-min.js"></script>
 	</body>
 </html>

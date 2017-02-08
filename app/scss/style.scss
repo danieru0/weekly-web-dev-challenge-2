@@ -100,6 +100,9 @@ nav {
     align-items: center;
     list-style: none;
     float: right;
+    a.active {
+        border-top: 4px solid #ff6033;
+    }
     li {
         margin-left: 38px;
     }
@@ -109,7 +112,6 @@ nav {
         font-size: 1.50em;
         font-family: $raleway;
         font-weight: 600;
-        &:focus,
         &:hover {
             border-top: 4px solid #ff6033;
         }

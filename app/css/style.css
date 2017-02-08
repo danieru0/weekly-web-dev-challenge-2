@@ -61,6 +61,8 @@ nav {
   align-items: center;
   list-style: none;
   float: right; }
+  .navbar a.active {
+    border-top: 4px solid #ff6033; }
   .navbar li {
     margin-left: 38px; }
   .navbar a {
@@ -69,7 +71,7 @@ nav {
     font-size: 1.50em;
     font-family: Raleway, sans-serif;
     font-weight: 600; }
-    .navbar a:focus, .navbar a:hover {
+    .navbar a:hover {
       border-top: 4px solid #ff6033; }
 
 @media only screen and (max-width: 1217px) {
