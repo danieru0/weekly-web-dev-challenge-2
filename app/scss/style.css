@@ -557,13 +557,12 @@ nav {
       .subscribe .subscribe_container form input {
         box-sizing: border-box;
         padding-left: 2%;
-        width: 98%;
-        text-align: center; }
-      /* line 581, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        width: 98%; }
+      /* line 580, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .subscribe .subscribe_container form button {
         margin-top: 15px; } }
 
-/* line 589, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+/* line 588, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
 .blog {
   width: 100%;
   min-height: 864px;
@@ -572,7 +571,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  /* line 597, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 596, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .blog button {
     width: 200px;
     height: 55px;
@@ -586,39 +585,39 @@ nav {
     cursor: pointer;
     text-transform: uppercase;
     margin-top: 50px; }
-    /* line 600, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 599, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .blog button:focus, .blog button:hover {
       background-color: #84050f; }
-  /* line 605, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 604, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .blog h2 {
     margin: 0;
     font-size: 90px;
     color: #ffffff;
     font-family: Raleway, sans-serif;
     font-weight: bold; }
-  /* line 608, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 607, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .blog .blog-p {
     width: 566px;
     text-align: center;
     color: #ffffff;
     font-size: Raleway, sans-serif;
     font-size: 17px; }
-  /* line 615, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 614, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .blog .blog_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; }
-    /* line 620, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 619, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .blog .blog_container .blog-block {
       margin-top: 30px;
       position: relative;
       margin-left: 30px; }
-      /* line 624, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 623, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .blog .blog_container .blog-block img {
         margin: 0;
         padding: 0; }
-      /* line 628, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 627, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .blog .blog_container .blog-block .overlay {
         position: absolute;
         display: block;
@@ -630,7 +629,7 @@ nav {
         right: 0;
         bottom: 0;
         left: 0px; }
-        /* line 639, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        /* line 638, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
         .blog .blog_container .blog-block .overlay .date {
           width: 60px;
           height: 60px;
@@ -646,28 +645,28 @@ nav {
           font-weight: bolder;
           color: white;
           line-height: 29px; }
-          /* line 654, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+          /* line 653, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
           .blog .blog_container .blog-block .overlay .date .number {
             margin: 0;
             font-size: 32px; }
-          /* line 658, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+          /* line 657, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
           .blog .blog_container .blog-block .overlay .date .month {
             color: white;
             font-size: 21px; }
-        /* line 663, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        /* line 662, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
         .blog .blog_container .blog-block .overlay h3 {
           margin-top: 35%;
           font-size: 20px;
           font-family: Raleway, sans-serif;
           padding-left: 20px; }
-          /* line 668, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+          /* line 667, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
           .blog .blog_container .blog-block .overlay h3 a {
             color: #ffffff;
             text-decoration: none; }
-            /* line 671, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+            /* line 670, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
             .blog .blog_container .blog-block .overlay h3 a:focus, .blog .blog_container .blog-block .overlay h3 a:hover {
               text-decoration: underline; }
-        /* line 677, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        /* line 676, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
         .blog .blog_container .blog-block .overlay p {
           color: #ffffff;
           font-weight: lighter;
@@ -676,24 +675,24 @@ nav {
           padding-top: 10px; }
 
 @media only screen and (max-width: 1216px) {
-  /* line 691, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 690, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .blog button {
     margin-bottom: 50px; }
-  /* line 695, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 694, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .blog .blog_container .blog-block {
     margin-left: 0; } }
 
 @media only screen and (max-width: 582px) {
-  /* line 704, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 703, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .blog .blog-p {
     width: 100%; } }
 
 @media only screen and (max-width: 375px) {
-  /* line 714, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 713, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .blog .blog_container .blog-block img {
     width: 100%; } }
 
-/* line 722, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+/* line 721, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
 .contact {
   width: 100%;
   min-height: 866px;
@@ -705,24 +704,24 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  /* line 733, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 732, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .contact h2 {
     margin: 0;
     font-size: 90px;
     color: #000000;
     font-family: Raleway, sans-serif;
     font-weight: bold; }
-  /* line 736, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 735, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .contact .contact-p {
     font-size: 17px;
     font-family: Raleway, sans-serif;
     width: 350px;
     text-align: center; }
-  /* line 742, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 741, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .contact .contact_container {
     width: 1150px;
     display: flex; }
-    /* line 745, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 744, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .contact .contact_container address {
       font-size: 17px;
       font-family: Raleway, sans-serif;
@@ -731,44 +730,44 @@ nav {
       flex-direction: column;
       margin-left: 180px;
       padding-top: 20px; }
-      /* line 753, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 752, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container address strong {
         padding-bottom: 5px;
         text-transform: uppercase; }
-      /* line 757, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 756, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container address p {
         margin: 0;
         padding-bottom: 10px; }
-      /* line 761, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 760, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container address a {
         color: #000000;
         padding-bottom: 10px; }
-        /* line 764, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        /* line 763, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
         .contact .contact_container address a:focus, .contact .contact_container address a:hover {
           color: #999999; }
-    /* line 770, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 769, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .contact .contact_container form {
       display: flex;
       flex-direction: column; }
-      /* line 773, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 772, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container form ::-webkit-input-placeholder {
         /* WebKit, Blink, Edge */
         color: #ffffff; }
-      /* line 776, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 775, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container form :-moz-placeholder {
         /* Mozilla Firefox 4 to 18 */
         color: #ffffff;
         opacity: 1; }
-      /* line 780, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 779, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container form ::-moz-placeholder {
         /* Mozilla Firefox 19+ */
         color: #ffffff;
         opacity: 1; }
-      /* line 784, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 783, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container form :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
         color: #ffffff; }
-      /* line 787, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 786, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container form button {
         margin-top: 20px;
         width: 200px;
@@ -783,10 +782,10 @@ nav {
         cursor: pointer;
         text-transform: uppercase;
         box-shadow: none; }
-        /* line 791, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        /* line 790, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
         .contact .contact_container form button:focus, .contact .contact_container form button:hover {
           background-color: rgba(97, 245, 242, 0.7); }
-      /* line 796, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 795, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container form input {
         width: 480px;
         height: 50px;
@@ -800,11 +799,11 @@ nav {
         outline: none;
         box-sizing: border-box;
         transition: all 0.1s ease-in; }
-        /* line 809, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        /* line 808, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
         .contact .contact_container form input:focus {
           border-left: 5px solid #355b82;
           font-weight: bold; }
-      /* line 814, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 813, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       .contact .contact_container form textarea {
         height: 230px;
         resize: none;
@@ -819,61 +818,61 @@ nav {
         box-sizing: border-box;
         outline: none;
         transition: all 0.1s ease-in; }
-        /* line 828, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+        /* line 827, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
         .contact .contact_container form textarea:focus {
           font-weight: bold;
           border-left: 5px solid #355b82; }
 
 @media only screen and (max-width: 1167px) {
-  /* line 839, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 838, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .contact .contact_container {
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap; }
-    /* line 843, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 842, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .contact .contact_container address {
       margin-left: 0; } }
 
 @media only screen and (max-width: 769px) {
-  /* line 851, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 850, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .contact {
     height: 1000px; }
-    /* line 855, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 854, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .contact .contact_container form button {
       align-self: center; }
-    /* line 859, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 858, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .contact .contact_container address {
       text-align: center; } }
 
 @media only screen and (max-width: 500px) {
-  /* line 869, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 868, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .contact .contact_container form {
     width: 100%; }
-    /* line 871, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 870, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .contact .contact_container form input {
       text-align: center;
       padding: 2%;
       width: 100%; }
-    /* line 876, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 875, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     .contact .contact_container form textarea {
       text-align: center;
       padding-left: 2%;
       width: 100%; } }
 
 @media only screen and (max-width: 350px) {
-  /* line 888, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 887, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .contact h2 {
     font-size: 60px; }
-  /* line 891, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 890, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   .contact .contact-p {
     width: 100%; } }
 
-/* line 897, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+/* line 896, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
 footer {
   width: 100%;
   height: 90px;
   background-color: #262626; }
-  /* line 901, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 900, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   footer .footer_container {
     margin: 0;
     padding: 0;
@@ -884,27 +883,27 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    /* line 911, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 910, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     footer .footer_container p {
       margin: 0;
       color: #b9b9b9;
       font-family: Raleway, sans-serif;
       font-size: 16px; }
-    /* line 917, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 916, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     footer .footer_container .red {
       color: #ff2b58; }
-    /* line 920, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+    /* line 919, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
     footer .footer_container a {
       text-decoration: none;
       color: #b9b9b9;
       font-size: 25px;
       font-family: Pacifico, cursive; }
-      /* line 925, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+      /* line 924, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
       footer .footer_container a:focus, footer .footer_container a:hover {
         color: #ff6033; }
 
 @media only screen and (max-width: 690px) {
-  /* line 935, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
+  /* line 934, D:/all sites/weekly web dev challenge/2/app/scss/style.scss */
   footer .footer_container {
     flex-direction: column;
     justify-content: space-around;
