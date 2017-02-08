@@ -462,6 +462,9 @@ nav {
 @media only screen and (max-width: 1192px) {
     .gallery {
         height: 100%;
+        button {
+            margin-bottom: 50px;
+        }
         h2 {
             padding-top: 100px;
         }
@@ -473,8 +476,10 @@ nav {
             .container1 {
                 align-self: auto;
                 position: relative;
+                flex-direction: row;
             }
             .container2 {
+                padding: 0;
                 justify-content: center;
                 align-items: center;
             }
@@ -484,6 +489,11 @@ nav {
 
 @media only screen and (max-width: 800px) {
     .gallery {
+        .gallery_container {
+            .container1 {
+                flex-direction: column;
+            }
+        }
         img {
             width: 100%;
         }
@@ -843,6 +853,7 @@ nav {
 
 @media only screen and (max-width: 769px) {
     .contact {
+        height: 1000px;
         .contact_container {
             form {
                 button {
@@ -862,10 +873,12 @@ nav {
             form {
                 width: 100%;
                 input {
+                    text-align: center;
                     padding: 2%;
                     width: 100%;
                 }
                 textarea {
+                    text-align: center;
                     padding-left: 2%;
                     width: 100%;
                 }

@@ -370,6 +370,8 @@ nav {
 @media only screen and (max-width: 1192px) {
   .gallery {
     height: 100%; }
+    .gallery button {
+      margin-bottom: 50px; }
     .gallery h2 {
       padding-top: 100px; }
     .gallery .gallery_container {
@@ -379,12 +381,16 @@ nav {
       align-items: center; }
       .gallery .gallery_container .container1 {
         align-self: auto;
-        position: relative; }
+        position: relative;
+        flex-direction: row; }
       .gallery .gallery_container .container2 {
+        padding: 0;
         justify-content: center;
         align-items: center; } }
 
 @media only screen and (max-width: 800px) {
+  .gallery .gallery_container .container1 {
+    flex-direction: column; }
   .gallery img {
     width: 100%; }
   .gallery h2 {
@@ -691,18 +697,22 @@ nav {
       margin-left: 0; } }
 
 @media only screen and (max-width: 769px) {
-  .contact .contact_container form button {
-    align-self: center; }
-  .contact .contact_container address {
-    text-align: center; } }
+  .contact {
+    height: 1000px; }
+    .contact .contact_container form button {
+      align-self: center; }
+    .contact .contact_container address {
+      text-align: center; } }
 
 @media only screen and (max-width: 500px) {
   .contact .contact_container form {
     width: 100%; }
     .contact .contact_container form input {
+      text-align: center;
       padding: 2%;
       width: 100%; }
     .contact .contact_container form textarea {
+      text-align: center;
       padding-left: 2%;
       width: 100%; } }
 
