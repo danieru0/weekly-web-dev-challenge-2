@@ -355,9 +355,10 @@ nav {
       flex-direction: column;
       align-self: flex-end;
       position: absolute;
-      top: 3px; }
+      top: 3px; 
+      right: 0px; }
       .gallery .gallery_container .container1 img {
-        margin-bottom: 20px; }
+        margin-bottom: 9px; }
     .gallery .gallery_container .container2 {
       display: flex;
       flex-direction: row;
